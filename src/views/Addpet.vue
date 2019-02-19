@@ -11,10 +11,10 @@
             <p class="pet_text"><textarea v-model="pet_text"></textarea><!-- 800*250 --></p>
             <div class="file">
               <h4>上传图片 ( 至少上传一张 ) :</h4>
-              <input type="file"  id="file" @change="file()"></input><i>⁎</i>
-              <input type="file"  id="file2" @change="file2()"></input>
-              <input type="file"  id="file3" @change="file3()"></input>
-              <input type="file"  id="file4" @change="file4()"></input>
+              <input type="file"  id="file" @change="file()"/><i>⁎</i>
+              <input type="file"  id="file2" @change="file2()"/>
+              <input type="file"  id="file3" @change="file3()"/>
+              <input type="file"  id="file4" @change="file4()"/>
             </div>
             <p >提示 : 带 <i> ⁎ </i> 号的为必填项</p>
         </div>

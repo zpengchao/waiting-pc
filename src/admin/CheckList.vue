@@ -17,7 +17,7 @@
                 <th style="width:50px;">图4</th>
                 <th>操作</th>
               </tr>
-              <tr v-for="(item,index) in check" :key="item.index">
+              <tr v-for="(item) in check" :key="item.index">
                 <td>{{item.cid}}</td>
                 <td>{{item.ser_id}}</td>
                 <td>{{item.kind=="其他小动物" ? "其他" : item.kind}}</td>
